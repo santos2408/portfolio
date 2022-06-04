@@ -1,10 +1,4 @@
 :root {
-  // font-size
-  --font-normal: 1.6rem;
-  --font-semi: 2rem;
-  --font-medium: 2.4rem;
-  --font-large: 4.8rem;
-
   // colors
   --first-color: hsl(4, 100%, 62%);
   --first-color-alt: hsl(4, 100%, 67%);
@@ -12,4 +6,22 @@
   --text-color: hsl(0, 0%, 60%);
   --black-color: hsl(0, 0%, 0%);
   --white-color: hsl(0, 0%, 100%);
+
+  // font-size
+  --body-font: 'Inter', sans-serif;
+  --h1-font-large: 3.2rem;
+  --h2-font-size: 2.4rem;
+  --h3-font-size: 2rem;
+  --normal-font-size: 1.6rem;
+
+  --font-bold: 700;
+  --font-semibold: 600;
+  --font-medium: 500; 
+}
+
+@media screen and (min-width: 1024px) {
+  :root {
+    --h1-font-large: 4.8rem;
+    --normal-font-size: 1.8rem;
+  }
 }

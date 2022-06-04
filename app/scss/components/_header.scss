@@ -1,40 +1,60 @@
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 7rem;
+  width: 100%;
 
-  &__logo {
-    width: 12rem;
-  }
-
-  &__menu {
+  .nav {
+    height: 7rem;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    gap: 2.5rem;
-  }
 
-  .menu__list {
-    display: none;
-  }
+    @include breakpoint-down(large) {
+      .menu {
+        position: fixed;
+        width: 70%;
+        height: 100vh;
+        top: 0;
+        right: -100%;
+        background-color: var(--first-color);
+        color: var(--white-color);
+        transition: all .3s ease-in-out;
+  
+        .menu__list {
+          display: flex;
+          flex-direction: column;
+          gap: 3rem;
+          text-align: center;
+          margin-top: 8rem;
+          
+          a {
+            font-size: var(--normal-font-size);
+            color: var(--white-color);
+            padding: 1rem;
+          }
+        }
+  
+        .close__menu {
+          position: absolute;
+          top: 2rem;
+          right: 2rem;
+          font-size: 3rem;
+          cursor: pointer;
+        }
+      }
 
-  &__toggle {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    padding: 10px 0;
-
-    > span {
-      content: '';
-      display: block;
-      width: 28px;
-      height: 2px;
-      border: 5px;
-      background-color: var(--title-color);
+      .show-menu {
+        right: 0;
+      }
     }
   }
 
-  &__light--icon {
-    padding: 5px;
+  .menu__icons {
+    display: flex;
+    gap: 2rem;
+    font-size: 2rem;
+    color: var(--title-color);
+
+    .theme, .open__menu {
+      cursor: pointer;
+    }
   }
 }

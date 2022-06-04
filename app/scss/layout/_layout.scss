@@ -1,5 +1,9 @@
 .container {
-  max-width: 1120px;
-  margin-inline: auto;
-  padding-inline: 2rem;
+  max-width: 1024px;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.main {
+  overflow: hidden;
 }

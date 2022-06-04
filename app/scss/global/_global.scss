@@ -12,8 +12,10 @@ html {
 }
 
 body {
-  font-family: 'Inter', sans-serif;
-  font-size: var(--font-normal);
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  background-color: var(--white-color);
+  color: var(--text-color);
 }
 
 ul {

@@ -8,37 +8,44 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="./dist/style.css">
   <title>Roger - Portfólio</title>
 </head>
 
 <body>
-  <header class="header container">
-    <div class="header__logo">
-      <a href="#">
+  <header class="header">
+    <nav class="nav container">
+      <a href="#" class="">
         <img src="./app/img/gallery/logo.svg" alt="roger.dev">
       </a>
-    </div>
 
-    <nav class="header__menu">
-      <ul class="menu__list">
-        <li>Início</li>
-        <li>Sobre</li>
-        <li>Habilidades</li>
-        <li>Projetos</li>
-      </ul>
+      <div class="menu" data-js="menu">
+        <ul class="menu__list">
+          <li><a href="#">Início</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Habilidades</a></li>
+          <li><a href="#">Projetos</a></li>
+        </ul>
 
-      <div class="header__light--icon">
-        <img src="./app/img/icons/light.svg" alt="">
+        <div class="close__menu" data-js="close-menu">
+          <i class='bx bx-x'></i>
+        </div>
       </div>
 
-      <div class="header__toggle">
-        <span></span>
-        <span></span>
-        <span></span>
+      <div class="menu__icons">
+        <div class="theme">
+          <i class='bx bx-sun'></i>
+        </div>
+
+        <div class="open__menu" data-js="open-menu">
+          <i class='bx bx-grid-alt'></i>
+        </div>
       </div>
     </nav>
   </header>
+
+  <script src="./app/js/app.js"></script>
 </body>
 
 </html>
