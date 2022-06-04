@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 7rem;
+
+  &__logo {
+    width: 12rem;
+  }
+
+  &__menu {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+  }
+
+  .menu__list {
+    display: none;
+  }
+
+  &__toggle {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px 0;
+
+    > span {
+      content: '';
+      display: block;
+      width: 28px;
+      height: 2px;
+      border: 5px;
+      background-color: var(--title-color);
+    }
+  }
+
+  &__light--icon {
+    padding: 5px;
+  }
+}
