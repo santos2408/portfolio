@@ -15,10 +15,9 @@
   --font-medium: 500;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1080px) {
   :root {
     --h1-font-large: 4.8rem;
-    --normal-font-size: 1.8rem;
   }
 }
 *,
@@ -56,9 +55,15 @@ img {
 }
 
 .container {
-  max-width: 1024px;
+  max-width: 1080px;
   margin-left: 1.5rem;
   margin-right: 1.5rem;
+}
+@media screen and (min-width: 1080px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .main {
@@ -74,7 +79,20 @@ img {
   justify-content: space-between;
   align-items: center;
 }
-@media screen and (max-width: 1024px) {
+.header .nav .menu__icons {
+  display: flex;
+  gap: 2rem;
+  font-size: 2rem;
+  color: var(--title-color);
+}
+.header .nav .menu__icons i {
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.header .nav .menu__icons i:hover {
+  color: var(--first-color);
+}
+@media screen and (max-width: 1079px) {
   .header .nav .menu {
     position: fixed;
     width: 70%;
@@ -85,14 +103,15 @@ img {
     color: var(--white-color);
     transition: all 0.3s ease-in-out;
   }
-  .header .nav .menu .menu__list {
+  .header .nav .menu__list {
     display: flex;
     flex-direction: column;
     gap: 3rem;
     text-align: center;
     margin-top: 8rem;
   }
-  .header .nav .menu .menu__list a {
+  .header .nav .menu__list a {
+    display: inline-block;
     font-size: var(--normal-font-size);
     color: var(--white-color);
     padding: 1rem;
@@ -108,12 +127,34 @@ img {
     right: 0;
   }
 }
-.header .menu__icons {
-  display: flex;
-  gap: 2rem;
-  font-size: 2rem;
-  color: var(--title-color);
-}
-.header .menu__icons .theme, .header .menu__icons .open__menu {
-  cursor: pointer;
+@media screen and (min-width: 1080px) {
+  .header .nav {
+    height: 12rem;
+  }
+  .header .nav .menu {
+    display: flex;
+    margin-left: auto;
+  }
+  .header .nav .menu__list {
+    display: flex;
+    gap: 4rem;
+  }
+  .header .nav .menu__list a {
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    color: var(--text-color);
+    padding: 1rem 0;
+    transition: 0.3s ease;
+  }
+  .header .nav .menu__list a:hover {
+    color: var(--first-color);
+  }
+  .header .nav .close__menu,
+.header .nav .open-menu {
+    display: none;
+  }
+  .header .nav .menu__icons {
+    margin-left: 6rem;
+    font-size: 2.2rem;
+  }
 }/*# sourceMappingURL=style.css.map */

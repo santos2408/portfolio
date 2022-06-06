@@ -14,7 +14,7 @@
 </head>
 
 <body>
-  <header class="header">
+  <header class="header" id="header">
     <nav class="nav container">
       <a href="#" class="">
         <img src="./app/img/gallery/logo.svg" alt="roger.dev">
@@ -22,10 +22,10 @@
 
       <div class="menu" data-js="menu">
         <ul class="menu__list">
-          <li><a href="#">Início</a></li>
-          <li><a href="#">Sobre</a></li>
-          <li><a href="#">Habilidades</a></li>
-          <li><a href="#">Projetos</a></li>
+          <li><a href="#header">Início</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#skills">Habilidades</a></li>
+          <li><a href="#projects">Projetos</a></li>
         </ul>
 
         <div class="close__menu" data-js="close-menu">
@@ -34,16 +34,19 @@
       </div>
 
       <div class="menu__icons">
-        <div class="theme">
-          <i class='bx bx-sun'></i>
-        </div>
-
-        <div class="open__menu" data-js="open-menu">
-          <i class='bx bx-grid-alt'></i>
-        </div>
+        <i class='bx bx-sun' class="theme-icon"></i>
+        <i class='bx bx-grid-alt open-menu' data-js="open-menu"></i>
       </div>
     </nav>
   </header>
+
+  <!-- <section class="hero">
+    <div class="hero__data container">
+      <h2>Olá, eu sou</h2>
+      <h1>Roger Santos</h1>
+      <p>Desenvolvedor Front-End Jr.</p>
+    </div>
+  </section> -->
 
   <script src="./app/js/app.js"></script>
 </body>
