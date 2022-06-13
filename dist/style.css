@@ -76,6 +76,7 @@ img {
 .header .nav {
   height: 7rem;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
@@ -156,5 +157,8 @@ img {
   .header .nav .menu__icons {
     margin-left: 6rem;
     font-size: 2.2rem;
+  }
+  .header .nav .menu__icons i {
+    color: var(--text-color);
   }
 }/*# sourceMappingURL=style.css.map */
