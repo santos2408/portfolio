@@ -1,5 +1,10 @@
 .header {
   width: 100%;
+  margin-bottom: 6rem;
+
+  @include breakpoint-up(large) {
+    margin-bottom: 15rem;
+  }
 
   .nav {
     height: 7rem;
@@ -24,7 +29,7 @@
       }
     }
 
-    @include breakpoint-down(large) {
+    @include breakpoint-down(medium) {
       .menu {
         position: fixed;
         width: 70%;
@@ -64,7 +69,7 @@
       }
     }
 
-    @include breakpoint-up(large) {
+    @include breakpoint-up(medium) {
       height: 12rem;
 
       .menu {

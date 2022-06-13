@@ -9,9 +9,10 @@
 
   // font-size
   --body-font: 'Inter', sans-serif;
-  --h1-font-large: 3.2rem;
+  --h1-font-size: 3.2rem;
   --h2-font-size: 2.4rem;
   --h3-font-size: 2rem;
+  --medium-font-size: 1.6rem;
   --normal-font-size: 1.6rem;
 
   --font-bold: 700;
@@ -19,8 +20,9 @@
   --font-medium: 500; 
 }
 
-@include breakpoint-up(large) {
+@include breakpoint-up(medium) {
   :root {
-    --h1-font-large: 4.8rem;
+    --h1-font-size: 4.8rem;
+    --medium-font-size: 2rem;
   }
 }
