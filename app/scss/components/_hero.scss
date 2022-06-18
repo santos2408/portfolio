@@ -1,40 +1,53 @@
-.hero__data {
-
-  h2, h1 {
-    margin-bottom: .8rem;
+.hero {
+  @include breakpoint-up(medium) {
+    height: 53rem;
+    display: grid;
+    align-items: center;
   }
 
-  h2 {
-    font-size: var(--h2-font-size);
-    color: var(--first-color);
-  }
+  .hero__data {
 
-  h1 {
-    font-size: var(--h1-font-size);
-    font-weight: var(--font-semibold);
-    color: var(--title-color);
-  }
-
-  span {
-    display: block;
-    font-size: var(--medium-font-size);
-    color: var(--title-color);
-    margin-bottom: 3rem;
-  }
+    h2, h1 {
+      margin-bottom: .8rem;
+    }
   
-  p {
-    line-height: 24px;
-    max-width: 45rem;
-    margin-bottom: 5rem;
-
-    @include breakpoint-up(medium) {
+    h2 {
+      font-size: var(--h2-font-size);
+      color: var(--first-color);
+    }
+  
+    h1 {
+      font-size: var(--h1-font-size);
+      font-weight: var(--font-semibold);
+      color: var(--title-color);
+    }
+  
+    span {
+      display: block;
+      font-size: var(--medium-font-size);
+      color: var(--title-color);
       margin-bottom: 3rem;
     }
-  }
+    
+    p {
+      line-height: 24px;
+      max-width: 45rem;
+      margin-bottom: 5rem;
+  
+      @include breakpoint-up(medium) {
+        margin-bottom: 3rem;
+      }
+    }
+  
+    .hero__buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
 
-  .hero__buttons {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
+      @include breakpoint-down(small) {
+        flex-direction: column;
+        gap: 1rem;
+      }
+    }
   }
 }

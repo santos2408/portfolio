@@ -10,7 +10,6 @@
 }
 
 .main {
-  display: grid;
   overflow: hidden;
 }
 
@@ -18,13 +17,14 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
   gap: .5rem;
   background-color: var(--first-color);
-  padding: 0.8rem 3rem;
+  font-weight: var(--font-semibold);
   color: var(--white-color);
   border: 2px solid var(--first-color);
+  padding: 0.8rem 3rem;
   border-radius: 10px;
-  font-weight: var(--font-semibold);
   transition: .3s ease;
 
   i {

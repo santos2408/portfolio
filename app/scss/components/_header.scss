@@ -1,9 +1,9 @@
 .header {
   width: 100%;
-  margin-bottom: 6rem;
+  margin-bottom: 5rem;
 
-  @include breakpoint-up(large) {
-    margin-bottom: 15rem;
+  @include breakpoint-up(medium){
+    margin-bottom: 0rem;
   }
 
   .nav {
