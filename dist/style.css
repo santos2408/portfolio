@@ -229,7 +229,7 @@ img {
     height: 53rem;
     display: grid;
     align-items: center;
-    margin-bottom: 0rem;
+    margin-bottom: 8.8rem;
   }
 }
 .hero .hero__data h2, .hero .hero__data h1 {
@@ -265,10 +265,19 @@ img {
   display: grid;
   grid-template-columns: 1fr;
   justify-content: center;
-  gap: 8rem;
+  row-gap: 8rem;
   margin-bottom: 11rem;
 }
+@media screen and (min-width: 768px) {
+  .about {
+    grid-template-columns: 5fr 7fr;
+    align-items: center;
+    -moz-column-gap: 1rem;
+         column-gap: 1rem;
+  }
+}
 .about .about__image {
+  width: 25rem;
   justify-self: center;
 }
 .about .about__data h2 {
@@ -292,10 +301,21 @@ img {
     text-align: center;
   }
   .about .about__data p {
-    max-width: 50rem;
+    max-width: 51rem;
     margin-inline: auto;
   }
   .about .about__data .about__buttons {
     justify-content: center;
+  }
+}
+@media screen and (min-width: 768px) {
+  .about .about__data {
+    text-align: left;
+  }
+  .about .about__data p {
+    margin-inline: initial;
+  }
+  .about .about__data .about__buttons {
+    justify-content: flex-start;
   }
 }/*# sourceMappingURL=style.css.map */
