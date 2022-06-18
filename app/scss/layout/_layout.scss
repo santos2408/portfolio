@@ -13,6 +13,17 @@
   overflow: hidden;
 }
 
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+
+  @include breakpoint-down(small) {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
 .button {
   display: flex;
   flex-wrap: wrap;
