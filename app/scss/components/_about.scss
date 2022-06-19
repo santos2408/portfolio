@@ -3,7 +3,7 @@
   grid-template-columns: 1fr;
   justify-content: center;
   row-gap: 8rem;
-  margin-bottom: 11rem;
+  margin-bottom: 8rem;
 
   @include breakpoint-up(medium) {
     grid-template-columns: 5fr 7fr;

@@ -266,7 +266,7 @@ img {
   grid-template-columns: 1fr;
   justify-content: center;
   row-gap: 8rem;
-  margin-bottom: 11rem;
+  margin-bottom: 8rem;
 }
 @media screen and (min-width: 768px) {
   .about {
@@ -321,6 +321,14 @@ img {
   }
 }
 
+.skills {
+  margin-bottom: 8rem;
+}
+@media screen and (min-width: 768px) {
+  .skills {
+    margin-bottom: 16rem;
+  }
+}
 .skills .skills__data h2 {
   font-size: var(--h2-font-size);
   font-weight: var(--font-semibold);
