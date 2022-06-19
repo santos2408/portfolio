@@ -154,6 +154,7 @@ img {
 @media screen and (max-width: 767px) {
   .header .nav .menu {
     position: fixed;
+    z-index: 10;
     width: 70%;
     height: 100vh;
     top: 0;
@@ -357,7 +358,6 @@ img {
 }
 .skills .skills__data .skills__container .skill {
   position: relative;
-  z-index: -1;
   display: grid;
   justify-content: center;
   align-items: center;
@@ -403,4 +403,11 @@ img {
 }
 .skills .skills__data .skills__container .skill:hover .sass-icon, .skills .skills__data .skills__container .skill:hover .sass-span {
   color: #CD669A;
+}
+
+.projects h2 {
+  font-size: var(--h2-font-size);
+  font-weight: var(--font-semibold);
+  color: var(--first-color);
+  margin-bottom: 3rem;
 }/*# sourceMappingURL=style.css.map */

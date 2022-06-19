@@ -32,6 +32,7 @@
     @include breakpoint-down(medium) {
       .menu {
         position: fixed;
+        z-index: 10;
         width: 70%;
         height: 100vh;
         top: 0;
