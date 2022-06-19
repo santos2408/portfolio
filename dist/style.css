@@ -321,12 +321,6 @@ img {
   }
 }
 
-@media screen and (min-width: 768px) {
-  .skills .skills__data {
-    max-width: 75rem;
-    margin-inline: auto;
-  }
-}
 .skills .skills__data h2 {
   font-size: var(--h2-font-size);
   font-weight: var(--font-semibold);
@@ -350,11 +344,12 @@ img {
 }
 @media screen and (min-width: 768px) {
   .skills .skills__data .skills__container {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
   }
 }
 .skills .skills__data .skills__container .skill {
   position: relative;
+  z-index: -1;
   display: grid;
   justify-content: center;
   align-items: center;
