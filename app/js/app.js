@@ -10,24 +10,15 @@ menuClose.addEventListener('click', () => {
   menu.classList.remove('show-menu')
 })
 
-// const swiper = new Swiper('.swiper', {
-//   // Optional parameters
-//   direction: 'vertical',
-//   loop: true,
+const swiper = new Swiper('.projects__list', {
+  spaceBetween: 32,
+  grabCursor: true,
+  centeredSlides: true,
+  slidesPerView: 'auto',
+  loop: true,
 
-//   // If we need pagination
-//   pagination: {
-//     el: '.swiper-pagination',
-//   },
-
-//   // Navigation arrows
-//   navigation: {
-//     nextEl: '.swiper-button-next',
-//     prevEl: '.swiper-button-prev',
-//   },
-
-//   // And if we need scrollbar
-//   scrollbar: {
-//     el: '.swiper-scrollbar',
-//   },
-// });
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  }
+});
