@@ -1,0 +1,81 @@
+.skills {
+  margin-bottom: 8rem;
+
+  @include breakpoint-up(medium) {
+    margin-bottom: 16rem;
+  }
+
+  .skills__data {
+    h2 {
+      font-size: var(--h2-font-size);
+      font-weight: var(--font-semibold);
+      color: var(--first-color);
+      margin-bottom: 3rem;
+    }
+  
+    .skills__container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2.4rem;
+  
+      @include breakpoint-down(small) {
+        gap: 2rem;
+      }
+
+      @include breakpoint-up(small) {
+        grid-template-columns: repeat(3, 1fr);
+      }
+  
+      @include breakpoint-up(medium) {
+        grid-template-columns: repeat(5, 1fr);
+        gap: 2rem;
+      }
+  
+      .skill {
+        position: relative;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        height: 11rem;
+        background-color: var(--white-color);
+        border-radius: 10px;
+        box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.1);
+  
+        i {
+          position: relative;
+          bottom: 0rem;
+          font-size: 6.5rem;
+          color: var(--title-color);
+          transition: .4s ease;
+        }
+  
+        span {
+          position: absolute;
+          left: 50%;
+          bottom: 0rem;
+          transform: translateX(-50%);
+          transition: .4s ease;
+          opacity: 0;
+        }
+      }
+  
+      .skill:hover {
+        i {
+          bottom: 1.2rem;
+        }
+  
+        span {
+          bottom: 1.2rem;
+          font-weight: var(--font-medium);
+          opacity: 1;
+        }
+  
+        .html-icon, .html-span {color: #d84923;}
+        .css-icon, .css-span {color: #0082C0;}
+        .javascript-icon, .javascript-span {color: #FFBC57;}
+        .git-icon, .git-span {color: #d84923;}
+        .sass-icon, .sass-span {color: #CD669A;}
+      }
+    }
+  }
+}
