@@ -32,7 +32,7 @@ Esse projeto está sendo desenvolvido com as seguintes tecnologias:
 
 ## 🚧 Projeto:
 
-Link do Projeto: [Portfólio]()
+Link do Projeto: [Portfólio](https://rogersanttoss-portfolio.netlify.app/)
 
 <!-- <p>:heavy_check_mark: Mobile</p>
 <p>:construction: Desktop</p> -->
