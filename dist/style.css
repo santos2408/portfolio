@@ -412,4 +412,35 @@ img {
   font-weight: var(--font-semibold);
   color: var(--first-color);
   margin-bottom: 3rem;
+}
+.projects__container .projects__cards {
+  display: flex;
+  gap: 2rem;
+  height: 20rem;
+  overflow-x: auto;
+}
+.projects__container .projects__cards::-webkit-scrollbar {
+  height: 3px;
+}
+.projects__container .projects__cards::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+.projects__container .projects__cards::-webkit-scrollbar-thumb {
+  background-color: var(--first-color);
+  border-radius: 100px;
+}
+@media screen and (min-width: 1080px) {
+  .projects__container .projects__cards {
+    flex-wrap: wrap;
+    overflow-x: initial;
+  }
+}
+.projects__container .projects__cards li {
+  flex: 1;
+  min-width: 26rem;
+}
+@media screen and (min-width: 1080px) {
+  .projects__container .projects__cards li {
+    min-width: 34rem;
+  }
 }/*# sourceMappingURL=style.css.map */

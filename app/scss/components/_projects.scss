@@ -5,4 +5,38 @@
     color: var(--first-color);
     margin-bottom: 3rem;
   }
+
+  .projects__cards {
+    display: flex;
+    gap: 2rem;
+    height: 20rem;
+    overflow-x: auto;
+
+    &::-webkit-scrollbar {
+      height: 3px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background-color: #fff;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: var(--first-color);
+      border-radius: 100px;
+    }
+
+    @include breakpoint-up(large) {
+      flex-wrap: wrap;
+      overflow-x: initial;
+    }
+
+    li {
+      flex: 1;
+      min-width: 26rem;
+
+      @include breakpoint-up(large) {
+        min-width: 34rem;
+      }
+    }
+  }
 }
