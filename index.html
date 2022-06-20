@@ -8,7 +8,6 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
   <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="./dist/style.css">
   <title>Roger - Portfólio</title>
@@ -108,34 +107,24 @@
       </div>
     </section>
 
-    <section class="projects container">
+    <section class="projects__container container">
       <h2>Projetos</h2>
-      <div class="projects__list swiper">
-        <div class="swiper-wrapper">
-          <div class="project swiper-slide">
-            <img src="./app/img/gallery/image-01.jpg" alt="Todo list">
-          </div>
-
-          <div class="project swiper-slide">
-            <img src="./app/img/gallery/image-02.jpg" alt="KRJ Alpinismo">
-          </div>
-
-          <div class="project swiper-slide">
-            <img src="./app/img/gallery/image-03.jpg" alt="Homeyou Real State">
-          </div>
+      <div class="projects__cards ">
+        <div class="project__card">
+          <img src="./app/img/gallery/image-01.jpg" alt="Todo list">
         </div>
 
-        <div class="swiper-button-next">
-          <i class='bx bx-chevron-right'></i>
+        <div class="project__card">
+          <img src="./app/img/gallery/image-02.jpg" alt="KRJ Alpinismo">
         </div>
-        <div class="swiper-button-prev">
-          <i class='bx bx-chevron-left'></i>
+
+        <div class="project__card">
+          <img src="./app/img/gallery/image-03.jpg" alt="Homeyou Real State">
         </div>
       </div>
     </section>
   </main>
 
-  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
   <script src="./app/js/app.js"></script>
 </body>
 

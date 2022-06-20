@@ -9,16 +9,3 @@ menuOpen.addEventListener('click', () => {
 menuClose.addEventListener('click', () => {
   menu.classList.remove('show-menu')
 })
-
-const swiper = new Swiper('.projects__list', {
-  spaceBetween: 32,
-  grabCursor: true,
-  centeredSlides: true,
-  slidesPerView: 'auto',
-  loop: true,
-
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  }
-});
