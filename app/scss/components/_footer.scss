@@ -22,7 +22,9 @@
   }
   
   .footer__links {
-    justify-self: end;
+    @include breakpoints-up(medium) {
+      justify-self: end;
+    }
 
     .footer__menu {
       display: grid;
