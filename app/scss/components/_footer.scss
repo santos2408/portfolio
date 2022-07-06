@@ -22,7 +22,7 @@
   }
   
   .footer__links {
-    @include breakpoints-up(medium) {
+    @include breakpoint-up(medium) {
       justify-self: end;
     }
 
