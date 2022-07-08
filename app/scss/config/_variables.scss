@@ -6,7 +6,18 @@
   --text-color: hsl(0, 0%, 60%);
   --black-color: hsl(0, 0%, 0%);
   --white-color: hsl(0, 0%, 100%);
+
   --body-color: hsl(0, 0%, 100%);
+  --skills-bg-color: hsl(0, 0%, 100%);
+  --skills-hover-color: hsl(0, 0%, 100%);
+
+  --button-hover-color: hsl(0, 0%, 100%);
+
+  --html-icon-color: #d84923;
+  --css-icon-color: #0082C0;
+  --javascript-icon-color: #FFBC57;
+  --git-icon-color: #d84923;
+  --sass-icon-color: #CD669A;
 
   // font-size
   --body-font: 'Inter', sans-serif;
@@ -24,8 +35,9 @@
 
 @include breakpoint-up(medium) {
   :root {
-    --h3-font-size: 2.4rem;
     --h1-font-size: 4.8rem;
+    --h2-font-size: 3.2rem;
+    --h3-font-size: 2.4rem;
     --medium-font-size: 2rem;
     --smaller-font-size: 1.6rem;
   }

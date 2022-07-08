@@ -37,9 +37,10 @@
         justify-content: center;
         align-items: center;
         height: 11rem;
-        background-color: var(--white-color);
+        background-color: var(--skills-bg-color);
         border-radius: 10px;
         box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.1);
+        transition: .3s;
   
         i {
           position: relative;
@@ -60,6 +61,8 @@
       }
   
       .skill:hover {
+        background-color: var(--skills-hover-color);
+
         i {
           bottom: 1.2rem;
         }
@@ -69,12 +72,12 @@
           font-weight: var(--font-medium);
           opacity: 1;
         }
-  
-        .html-icon, .html-span {color: #d84923;}
-        .css-icon, .css-span {color: #0082C0;}
-        .javascript-icon, .javascript-span {color: #FFBC57;}
-        .git-icon, .git-span {color: #d84923;}
-        .sass-icon, .sass-span {color: #CD669A;}
+          
+        .html-icon, .html-span {color: var(--html-icon-color)}
+        .css-icon, .css-span {color: var(--css-icon-color)}
+        .javascript-icon, .javascript-span {color: var(--javascript-icon-color)}
+        .git-icon, .git-span {color: var(--git-icon-color)}
+        .sass-icon, .sass-span {color: var(--sass-icon-color)}
       }
     }
   }

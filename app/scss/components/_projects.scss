@@ -1,5 +1,9 @@
 .projects__container {
-  margin-bottom: 16rem;
+  margin-bottom: 6rem;
+
+  @include breakpoint-up(medium) {
+    margin-bottom: 16rem;
+  }
 
   h2 {
     font-size: var(--h2-font-size);

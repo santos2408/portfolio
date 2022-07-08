@@ -1,5 +1,16 @@
 body.dark-theme {
   --body-color: hsl(0, 0%, 10%);
   --title-color: hsl(0, 0%, 100%);
+
+  --button-hover-color: hsl(0, 0%, 25%);
+
+  --skills-bg-color: hsl(0, 0%, 20%);
+  --skills-hover-color: hsl(4, 100%, 62%);
+
+  --html-icon-color: hsl(0, 0%, 100%);
+  --css-icon-color: hsl(0, 0%, 100%);
+  --javascript-icon-color: hsl(0, 0%, 100%);
+  --git-icon-color: hsl(0, 0%, 100%);
+  --sass-icon-color: hsl(0, 0%, 100%);
 }
 
