@@ -32,9 +32,9 @@
       overflow-x: initial;
     }
 
-    li {
+    .project__card {
       position: relative;
-      flex: 1;
+      // flex: 1;
       min-width: 26rem;
       border-radius: 10px;
       overflow: hidden;
