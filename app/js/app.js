@@ -10,6 +10,22 @@ menuClose.addEventListener('click', () => {
   menu.classList.remove('show-menu')
 })
 
+// CLOSE MENU WHEN CLICKED ON LINK OR OUTSIDE
+const menuList = document.querySelector('[data-js="menu-list"]')
+
+menu.addEventListener('click', event => {
+  const clickedElement = event.target
+
+  if (clickedElement.tagName === 'A') {
+    menu.classList.remove('show-menu')
+  }
+})
+
+window.addEventListener('click', event => {
+  console.log(event)
+  console.log(event.target)
+})
+
 // CHANGE THEME OF WEBSITE
 
 const themeButton = document.querySelector('[data-js="theme-button"]')
@@ -27,7 +43,7 @@ const getCurrentIcon = () =>
 
 if (selectedTheme) {
   document.body.classList[selectedTheme === 'dark' ? 'add' : 'remove'](darkTheme)
-  themeButton.classList[selectedIcon === 'bx-sun' ? 'add' : 'remove'](iconTheme)
+  themeButton.classList[selectedIcon === 'bx-moon' ? 'add' : 'remove'](iconTheme)
 }
 
 themeButton.addEventListener('click', () => {

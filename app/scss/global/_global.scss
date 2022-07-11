@@ -16,6 +16,7 @@ body {
   font-size: var(--normal-font-size);
   background-color: var(--body-color);
   color: var(--text-color);
+  transition: all .3s;
 }
 
 h1, h2, h3 {
@@ -36,4 +37,17 @@ img {
   // width: 100%;
   max-width: 100%;
   height: auto;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: var(--scroll-background);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--first-color);
+  border-radius: 100px;;
 }
