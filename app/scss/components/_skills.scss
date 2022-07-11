@@ -1,8 +1,9 @@
 .skills {
-  margin-bottom: 8rem;
+  padding-top: 4rem;
+  margin-bottom: 4rem;
 
   @include breakpoint-up(medium) {
-    margin-bottom: 16rem;
+    margin-bottom: 12rem;
   }
 
   .skills__data {

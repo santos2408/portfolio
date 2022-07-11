@@ -1,11 +1,11 @@
 .hero {
-  margin-bottom: 8rem;
+  margin-bottom: 4rem;
 
   @include breakpoint-up(medium) {
     height: 53rem;
     display: grid;
     align-items: center;
-    margin-bottom: 8.8rem;
+    margin-bottom: 4rem;
   }
 
   .hero__data {
