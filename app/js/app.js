@@ -10,19 +10,6 @@ menuClose.addEventListener('click', () => {
   menu.classList.remove('show-menu')
 })
 
-// CLOSE MENU WHEN CLICKED ON LINK OR OUTSIDE
-const menuList = document.querySelector('[data-js="menu-list"]')
-
-menu.addEventListener('click', event => {
-  const clickedElement = event.target
-
-  if (clickedElement.tagName === 'A') {
-    menu.classList.remove('show-menu')
-  }
-
-  console.log(clickedElement.parentElement)
-})
-
 // CHANGE THEME OF WEBSITE
 
 const themeButton = document.querySelector('[data-js="theme-button"]')
