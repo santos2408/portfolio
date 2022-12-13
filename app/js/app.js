@@ -21,11 +21,6 @@ menu.addEventListener('click', event => {
   }
 })
 
-window.addEventListener('click', event => {
-  console.log(event)
-  console.log(event.target)
-})
-
 // CHANGE THEME OF WEBSITE
 
 const themeButton = document.querySelector('[data-js="theme-button"]')
