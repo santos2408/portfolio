@@ -1,4 +1,4 @@
-<h1 align="center">🧑‍💻 Roger - Desenvolvedor Front-End & Node.js</h1>
+<h1 align="center">💻 Roger - Desenvolvedor Front-End & Node.js</h1>
 
 <p align="center">
   <em>Transformando ideias em experiências digitais funcionais, rápidas e bem estruturadas.</em>
@@ -53,11 +53,12 @@ Atualmente, venho desenvolvendo projetos pessoais e de portfólio que exploram:
 
 | Projeto | Descrição | Tecnologias | Status | Repositório |
 |----------|------------|--------------|----------|--------------|
-| 🗂️ **Organizador Automático de Arquivos** | Automatiza a organização de arquivos locais ou em nuvem, categorizando por extensão, data e regras personalizadas. | Node.js, Express, EJS, Google Drive API | 🚧 Em desenvolvimento | [🔗 Acessar](https://github.com/mateus/organizador-automatico-de-arquivos) |
-| 🏙️ **Point Favela** | Catálogo digital da Rocinha com lojas, serviços e turismo local — um projeto social com foco em inclusão digital. | Vue 3, Supabase, Tailwind CSS | ✅ Concluído | [🔗 Acessar](https://github.com/mateus/point-favela) |
+| 🗂️ **Organizador Automático de Arquivos** | Automatiza a organização de arquivos locais ou em nuvem, categorizando por extensão, data e regras personalizadas. | Node.js, Express, EJS, Google Drive API | 🚧 Em planejamento | [🔗 Acessar](https://github.com/mateus/organizador-automatico-de-arquivos) 
+<!-- | -->
+<!-- | 🏙️ **Point Favela** | Catálogo digital da Rocinha com lojas, serviços e turismo local — um projeto social com foco em inclusão digital. | Vue 3, Supabase, Tailwind CSS | ✅ Concluído | [🔗 Acessar](https://github.com/mateus/point-favela) |
 | 📚 **Fabulla Store** | Loja online de livros com painel administrativo e gerenciamento de produtos. | Vue.js, Node.js, MySQL | ⚙️ Em aprimoramento | [🔗 Acessar](https://github.com/mateus/fabulla-store) |
 | ⚔️ **Vue Of Thrones** | Página de conteúdo sobre Vue.js inspirada no universo de Game of Thrones — dicas, tutoriais e humor. | Vue.js, Tailwind CSS | ✅ Concluído | [🔗 Acessar](https://github.com/mateus/vue-of-thrones) |
-| 🍳 **Receita Mensal** | Gera receitas automáticas baseadas em quizzes mensais, com dashboard e sistema de pontuação. | Vue.js, Node.js, Supabase | 🚧 Em desenvolvimento | [🔗 Acessar](https://github.com/mateus/receita-mensal) |
+| 🍳 **Receita Mensal** | Gera receitas automáticas baseadas em quizzes mensais, com dashboard e sistema de pontuação. | Vue.js, Node.js, Supabase | 🚧 Em desenvolvimento | [🔗 Acessar](https://github.com/mateus/receita-mensal) | -->
 
 ---
 
@@ -77,9 +78,7 @@ Atualmente, venho desenvolvendo projetos pessoais e de portfólio que exploram:
 
 | Projeto | Descrição | Status |
 |----------|------------|--------|
-| 🔐 **Gestor de Contratos** | Plataforma para criação automática de contratos imobiliários com templates e assinatura digital. | 🧩 Planejamento |
-| 🎲 **Aposta BR** | Sistema de apostas simples com integração a API de futebol. | 🧩 Planejamento |
-| 🛍️ **Catálogo Digital (SaaS)** | Plataforma que permite lojas criarem catálogos e venderem pelo WhatsApp. | 🧩 Planejamento |
+| 🔐 **Conversor Universal (Moeda/Temperatura)** | 'descrição do projeto' | 🧩 Planejamento
 
 ---
 
@@ -94,7 +93,7 @@ Atualmente, venho desenvolvendo projetos pessoais e de portfólio que exploram:
 
 ## 🤝 Conecte-se comigo
 
-<p align="center">
+<p align="left">
   <a href="https://www.linkedin.com/in/mateus-dev" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
