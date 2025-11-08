@@ -53,7 +53,7 @@ Atualmente, venho desenvolvendo projetos pessoais e de portfólio que exploram:
 
 | Projeto | Descrição | Tecnologias | Status | Repositório |
 |----------|------------|--------------|----------|--------------|
-| 🗂️ **Organizador Automático de Arquivos** | Automatiza a organização de arquivos locais ou em nuvem, categorizando por extensão, data e regras personalizadas. | Node.js, Express, EJS, Google Drive API | 🚧 Em planejamento | [🔗 Acessar](https://github.com/mateus/organizador-automatico-de-arquivos) 
+| 🗂️ **Organizador Automático de Arquivos** | Automatiza a organização de arquivos locais ou em nuvem, categorizando por extensão, data e regras personalizadas. | Node.js, Express, EJS, Google Drive API | 🚧 Em planejamento | [🔗 Acessar](https://github.com/santos2408/auto-file-organizer) 
 <!-- | -->
 <!-- | 🏙️ **Point Favela** | Catálogo digital da Rocinha com lojas, serviços e turismo local — um projeto social com foco em inclusão digital. | Vue 3, Supabase, Tailwind CSS | ✅ Concluído | [🔗 Acessar](https://github.com/mateus/point-favela) |
 | 📚 **Fabulla Store** | Loja online de livros com painel administrativo e gerenciamento de produtos. | Vue.js, Node.js, MySQL | ⚙️ Em aprimoramento | [🔗 Acessar](https://github.com/mateus/fabulla-store) |
